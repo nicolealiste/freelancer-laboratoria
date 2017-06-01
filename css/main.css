@@ -1,3 +1,31 @@
 /*
  * Estilos de tu proyecto
  */
+ * {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poiret One', cursive;
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 1.71429;
+  background-color: #fff;
+}
+
+header{
+  position: fixed;
+  background: #2C3E50;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}

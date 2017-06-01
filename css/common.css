@@ -25,6 +25,28 @@
 	margin: 0 auto;
 }
 
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.list-inline {
+    padding-left: 0;
+    margin-left: -5px;
+    list-style: none;
+}
+
+.list-inline>li {
+    display: inline-block;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+ul {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
 .row before, .row after {
 	content: "";
 	display: table;
@@ -58,6 +80,10 @@
 .col-4{
 	/* (4/12)*100 */
 	width: 33.333333%;
+	position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 
 .col-5{

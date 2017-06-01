@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<title>Freelancer</title>
 	<!-- Enlaza aquí tu CSS común y de tu proyecto -->
-	<link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/common.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 
@@ -13,16 +13,21 @@
 	<!-- Escribe tu código aquí -->
 	<header>
 		<div class="menu container">
-			<a href="#" class="text-uppercase logo">start bootstrap</a>
-			<a href="#" class="text-uppercase link">Portafolio</a>
-			<a href="#" class="text-uppercase link">About</a>
-			<a href="#" class="text-uppercase link">Contact</a>
+			<ul class="subnavegacion">
+				<a href="#" class="text-uppercase logo">start bootstrap</a>
+			</ul>	
+			<ul class="subnavegacion-right">	
+				<a href="#" class="text-uppercase link">Portafolio</a>
+				<a href="#" class="text-uppercase link">About</a>
+				<a href="#" class="text-uppercase link">Contact</a>
+			</ul>	
 		</div>
-		<section id="profile-img">
+	</header>
+	<section id="profile-img">
 			<div class="container">
 				<div class="row">
 					<div class="col-12">
-						<img class="profile" src="assets/images/profile.png" alt="profile">
+						<img class="profile" src="assets/images/profile.png" alt="img-central">
 						<h2>START BOOTSTRAP</h2>
 						<hr class="white-star">
 						<p>Web Developer - Graphic Artist - User Experience Designer</p>
@@ -30,7 +35,6 @@
 				</div>
 			</div>
 	</section>
-	</header>
 	<section id="portfolio">
 		<div class="container">
 			<h2 class="text-uppercase text-content">portfolio</h2>

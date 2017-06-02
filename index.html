@@ -12,8 +12,8 @@
 </head>
 <body>
 	<!-- Escribe tu código aquí -->
-	<header>
-		<div class="menu container" class="contenedor" tabindex="-1">
+	<nav id="barra-principal" class="custom-barra">
+		<div class="container">
 			<ul class="subnavegacion">
 				<a href="#" class="text-uppercase logo">start bootstrap</a>
 			</ul>	
@@ -23,8 +23,9 @@
 				<a href="#" class="text-uppercase link">Contact</a>
 			</ul>	
 		</div>
-	</header>
-	<section id="profile-img">
+	</nav>
+	<header>
+		<section id="profile-img">
 			<div class="container">
 				<div class="row">
 					<div class="col-12">
@@ -36,9 +37,11 @@
 				</div>
 			</div>
 	</section>
+	</header>
 	<section id="portfolio" class="text-center">
 		<div class="container">
 			<h2 class="text-uppercase text-content">portfolio</h2>
+			<hr class="black-star">
 			<div class="row">
 					<div class="col-4 img"><img src="assets/images/portfolio/cabin.png" alt="caja 1" class="img-responsive"></div>
 					<div class="col-4 img"><img src="assets/images/portfolio/cake.png" alt="caja 2" class="img-responsive"></div>
@@ -51,7 +54,7 @@
 				</div>
 		</div>
 	</section>
-	<section id="about" class="text-center">
+	<section id="about" class="text-center" class="color-green">
 		<div class="container">
 			<div class="row">
 				<div class="col-12">
@@ -76,13 +79,14 @@
 					<h2 class="text-uppercase text-content">contact-me</h2>
 					<hr class="black-star">
 				</div>
-				<div class="contacto">
-						<input class="name" type="text" placeholder="Name">
-						<input type="text" placeholder="Email Address">
-						<input type="text" placeholder="Phone Number">
-						<textarea name="" id="" cols="30" rows="6" placeholder="Message"></textarea>
-					</div>
+			</div>	
+			<div class="contacto">
+				<input class="name" type="text" placeholder="Name">
+				<input type="text" placeholder="Email Address">
+				<input type="text" placeholder="Phone Number">
+				<textarea name="" id="" cols="30" rows="6" placeholder="Message"></textarea>
 			</div>
+			
 		</div>
 	</section>
 	<footer class="text-center">
